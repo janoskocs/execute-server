@@ -1,0 +1,30 @@
+{
+  "name": "execute-server",
+  "version": "1.0.0",
+  "description": "API of the execute app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/",
+    "lint-fix": "eslint \"**/*.js\" --ignore-pattern node_modules/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janoskocs/execute-server.git"
+  },
+  "author": "Janos Kocs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janoskocs/execute-server/issues"
+  },
+  "homepage": "https://github.com/janoskocs/execute-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
